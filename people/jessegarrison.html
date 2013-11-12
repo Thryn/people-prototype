@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href='../public/css/main.css' rel='stylesheet' type='text/css'>
+    <link href='../public/css/jqcloud.css' rel='stylesheet' type='text/css'>
+    <script src='//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js'></script>
+    <script src='../assets/scripts/jqcloud-1.0.4.min.js'></script>
+    
+  </head>
+  <body>
+    <!-- -# TODO: Figure out why partials aren't working in layout file -->
+    <header>
+      <h1>
+        <a class='site-logo' href='../index.html'>
+          bPeople
+        </a>
+      </h1>
+      <form action='search_results' class='search'>
+        <input placeholder='people, skills or teams' type='search'>
+        <button class='btn-primary'>Search</button>
+      </form>
+    </header>
+    <div class='content'>
+      <!-- todo: figure out why mixture is being dumb with partials on layout file -->
+      <div class='people-profile'>
+        <div class='photo-skills'>
+          <div class='profile-photo-wrap'>
+            <img class='people-profile-photo' src='../assets/img/jesse.png'>
+          </div>
+          <h3>Skills</h3>
+          <ul>
+            <li>
+              <a href='#'>Ruby on Rails</a>
+            </li>
+            <li>
+              <a href='#'>Ruby</a>
+            </li>
+            <li>
+              <a href='#'>CSS</a>
+            </li>
+            <li>
+              <a href='#'>Java</a>
+            </li>
+            <li>
+              <a href='#'>Git</a>
+            </li>
+            <li>
+              <a href='#'>Test-driven Development</a>
+            </li>
+            <li>
+              <a href='#'>Breaking Things</a>
+            </li>
+          </ul>
+        </div>
+        <div class='info'>
+          <h1>Jesse Garrison</h1>
+          <h2>Team: Engineering</h2>
+          <h3>Contact</h3>
+          <p>
+            <strong>Email</strong>
+            jesse.garrison@analoganalytics.com
+          </p>
+          <p>
+            <strong>Phone number</strong>
+            +1 555-555-5555
+          </p>
+          <h3>About Jesse</h3>
+          <p>I'm a recent college graduate with a degree in computer science. I have spent the last five years working on various web applications. I strive to deliver clean, reusable code while learning about different technologies. I'm equally comfortable with front-end development as I am back-end.</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

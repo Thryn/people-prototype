@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href='public/css/main.css' rel='stylesheet' type='text/css'>
+    <link href='public/css/jqcloud.css' rel='stylesheet' type='text/css'>
+    <script src='//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js'></script>
+    <script src='assets/scripts/jqcloud-1.0.4.min.js'></script>
+    
+  </head>
+  <body>
+    <!-- -# TODO: Figure out why partials aren't working in layout file -->
+    <header>
+      <h1>
+        <a class='site-logo' href='index.html'>
+          bPeople
+        </a>
+      </h1>
+      <form action='search_results' class='search'>
+        <input placeholder='people, skills or teams' type='search'>
+        <button class='btn-primary'>Search</button>
+      </form>
+    </header>
+    <div class='content'>
+      <!-- todo: figure out why mixture is being dumb with partials on layout file -->
+      <h1>
+        <a class='site-logo' href='index.html'>
+          bPeople
+        </a>
+      </h1>
+      <form action='search_results' class='search'>
+        <input placeholder='people, skills or teams'>
+        <button>Search</button>
+      </form>
+      <h1>search results</h1>
+      <ul>
+        <li>
+          <a href='people/jessegarrison.html'>
+            Jesse Garrison
+          </a>
+        </li>
+        <li>
+          <a href='teams/fed.html'>
+            FED Team
+          </a>
+        </li>
+      </ul>
+    </div>
+  </body>
+</html>
