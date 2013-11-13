@@ -12,7 +12,7 @@ var word_array = [
     {text: "Planning", weight: 2},
     {text: "Jesse Garrison", weight: 7, link: "people/jessegarrison"},
     {text: "Management", weight: 11},
-    {text: "Design", weight: 8},
+    {text: "Design", weight: 10, link: "search_results_skill"},
     {text: "Forecast", weight: 7},
     {text: "Collaboration", weight: 2},
     {text: "FED", weight: 12, link: "teams/fed"},
