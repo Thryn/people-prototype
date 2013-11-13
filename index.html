@@ -8,32 +8,18 @@
     <title>People</title>
   </head>
   <body>
-    <!-- -# TODO: Figure out why partials aren't working in layout file -->
-    <header>
-      <h1>
-        <a class='site-logo' href='index.html'>
-          bPeople
-        </a>
-      </h1>
-      <form action='search_results' class='search'>
+    <div class='content'>
+      <script src='assets/scripts/word-cloud.min.js'></script>
+      <h1>bPeople</h1>
+      <h2>Find people, search for skills or a team to learn stuff</h2>
+      <form action='search_results' class='home-search'>
         <input placeholder='people, skills or teams' type='search'>
         <button class='btn-primary'>Search</button>
       </form>
-    </header>
-    <div class='content'>
-      <script src='assets/scripts/word-cloud.min.js'></script>
-      <h1>
-        bPeople
-      </h1>
-      <p>Find people, search for skills or a team to learn stuff</p>
-      <form action='search_results'>
-        <input placeholder='people, skills or teams'>
-        <button>Search</button>
-      </form>
-      <h2>
+      <h3 class='cloud-title'>
         What others are searching
-      </h2>
-      <div id='word-cloud' style='width: 550px; height: 350px;'></div>
+      </h3>
+      <div id='word-cloud' style='width: 800px; height: 400px;'></div>
     </div>
   </body>
 </html>
